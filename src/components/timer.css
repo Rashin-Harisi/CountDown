@@ -1,0 +1,39 @@
+
+body{
+    color: white;
+}
+#designer{
+    animation: backInDown;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+   text-align: center;;
+   width: 300px;
+   height: 20px;
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%,-50%)  
+  }
+  .timer{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 100px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+  }
+  input{
+    height: 40px;
+    width: 25px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+  .hours, .minutes, .seconds {
+    width: 100px;
+  }
+  p{
+    text-align: center;
+  }
